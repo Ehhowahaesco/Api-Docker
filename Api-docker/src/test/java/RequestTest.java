@@ -12,6 +12,7 @@ public class RequestTest {
     private final static String url = "https://reqres.in/";
     @Test
     public void firstTest(){
+        System.out.println("^_^ssssssssssssssssssssssss");
         Specifications.installSpecification(Specifications.requestSpec(url), Specifications.responseSpec());
         List<UserData> userDataList = given()
                 .when()
